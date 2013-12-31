@@ -8,11 +8,12 @@ import remixlab.dandelion.constraint.*;
 
 public class collision
     {
+	
      	static ArrayList<CollisionSegment> colitionSegments = new ArrayList<CollisionSegment>();
         static int updateFreq = 10;
         static int counter;
         static boolean ghostMode;
-        
+        static boolean mode;
         public static boolean isGhostMode() {
 			return ghostMode;
 		}
